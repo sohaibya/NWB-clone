@@ -24,3 +24,38 @@ li{
 .topbar-items li {
 	padding: 0 7px;
 }
+.main-nav {
+	height: 60px;
+	background-color: grey;
+	display: flex;
+	flex-direction: row;
+}
+
+.nav-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.nav-items li {
+	padding: 0 7px;
+}
+
+.nav-icons {
+	cursor: pointer;
+	padding: 7px;
+	height: 35px;
+}
+
+.logo {
+	height: 100%;
+}
+
+
+
+
+
+
+
