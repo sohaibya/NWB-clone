@@ -52,8 +52,17 @@ li{
 .logo {
 	height: 100%;
 }
-
-
+.image-gallery{
+	height: 60vh;
+	background: red;
+}
+.logo1{
+	width:70%;
+	height:100%;
+}
+.logo1{
+	background-image: url(../images/mobimg1.jpg);
+}
 
 
 
