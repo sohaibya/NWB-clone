@@ -1,0 +1,26 @@
+* {
+	margin:0;
+	padding:0;	
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+li{
+	display: inline;
+	list-style: none;
+
+}
+
+.topbar {
+	height: 50px;
+	background-color: black;	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.topbar-items li {
+	padding: 0 7px;
+}
