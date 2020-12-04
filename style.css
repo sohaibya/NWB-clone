@@ -2,6 +2,7 @@
 	margin:0;
 	padding:0;	
 }
+
 a{
 	text-decoration: none;
 	color: white;
@@ -53,41 +54,49 @@ li{
 	height: 100%;
 }
 .image-gallery{
-	height: 60vh;
-	display: inline;
-	display:flex;
-
+	
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(2,242px);
 }
 .main-img1{
-	width:60%;
+	grid-column: 1/4;
+	grid-row: 1/3;
 	height:100%;
+	max-width: 100%;
 }
 .main-img1{
 	background-image: url(../images/mobimg1.jpg);
+   background-repeat: no-repeat;
+   background-position: ;
+   background-size: cover;
 }
-.bottom-section{
-	margin-bottom: 3%;
-}
-.imgflex1{
-	display:flex;
-	flex-direction: column;
-	height:40%;
-}
+
 .main-img2{
-	height:122px;
-	width:100%;
-	
+	grid-column: 4/6;
+	grid-row: 1/2;
+	margin: 0px,5px;
+	max-width: 100%;
+	padding: 3rem;
+	min-height: auto;
 }
 .main-img2{
 	background-image: url(../images/oneeye-img1.png);
-    background-color: yellow;
+	background-repeat: no-repeat;
+	background-position: right;
+   background-size: cover;
 }
 .main-img3{
-	height:268px;
-	width:100%;
+	grid-column: 4/6;
+	grid-row: 2/3;
+	height:100%;
+	max-width: 100%;
+	min-height: auto;
 }
-.main-img2{
+.main-img3{
 	background-image: url(../images/HBO-Max.jpg);
-   background-color: aqua;
+	background-repeat: no-repeat;
+	background-position: center;
+   background-size: cover;
 }
 
